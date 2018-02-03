@@ -1,3 +1,4 @@
+
 require 'rails_helper'
 
 describe 'Route to view' do
@@ -17,4 +18,4 @@ describe 'Multiple students are shown' do
 
     expect(page).to have_content(/(?=.*Daenerys)(?=.*Lindsey).*/)
   end
-end
+end 
